@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./count.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <span class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+       <button class="countbtn">4</button>
+        <h5 class="items">Items</h5>
+    </div>
+    <div class="cart__count" id="cartCounter">
+        <div class="buttons">
+            <button class="refreshbtn" onclick="refresh()" id="refreshpg"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+            <button class="recyclebtn" onclick="recycle()"><i class="fa fa-recycle" aria-hidden="true"></i></button>
+        </div>
+        <div class="count" id="number">zero</div>
+        <div class="cartbtn">
+            <button class="additems" onclick="additems(0)" id="increment"><i class="fa fa-plus-square" aria-hidden="true"></i></button>
+            <button class="decitems" onclick="decitems(0)" id="decrement"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+            <button class="deleteitems" onclick="deleteitems(0)" id="delete"><i class="fa fa-trash" aria-hidden="true"></i></button>
+        </div>
+        <div class="count" id="number">zero</div>
+        <div class="cartbtn">
+            <button class="additems" onclick="additems(1)" id="increment1"><i class="fa fa-plus-square" aria-hidden="true"></i></button>
+            <button class="decitems" onclick="decitems(1)" id="decrement1"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+            <button class="deleteitems" onclick="deleteitems(1)" id="delete1"><i class="fa fa-trash" aria-hidden="true"></i></button>
+        </div>
+        <div class="count" id="number">zero</div>
+        <div class="cartbtn">
+            <button class="additems" onclick="additems(2)" id="increment2"><i class="fa fa-plus-square" aria-hidden="true"></i></button>
+            <button class="decitems" onclick="decitems(2)" id="decrement2"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+            <button class="deleteitems" onclick="deleteitems(2)" id="delete2"><i class="fa fa-trash" aria-hidden="true"></i></button>
+        </div>
+        <div class="count" id="number">zero</div>
+        <div class="cartbtn">
+            <button class="additems" onclick="additems(3)" id="increment3"><i class="fa fa-plus-square" aria-hidden="true"></i></button>
+            <button class="decitems" onclick="decitems(3)" id="decrement3"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+            <button class="deleteitems" onclick="deleteitems(3)" id="delete3"><i class="fa fa-trash" aria-hidden="true"></i></button>
+        </div>
+    </div>
+   
+    <script src="./count.js"></script>
+</body>
+</html>
